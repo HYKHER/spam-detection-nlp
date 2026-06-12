@@ -1,31 +1,34 @@
 Spam Detection using NLP
-Project Overview
+Overview
 
 This project classifies SMS messages as Spam or Ham using Natural Language Processing (NLP) techniques.
 
 Dataset
 5,171 SMS messages
 Labels: Spam and Ham
+
 Technologies Used
 Python
 Pandas
 NLTK
 Scikit-learn
 TF-IDF Vectorizer
-Machine Learning Models
-Naive Bayes
-Logistic Regression
+
+Models Implemented
+1. Naive Bayes
+Initial model for spam classification
+Fast and effective baseline model
+2. Logistic Regression
+Improved classification performance
+Selected as the final model due to higher accuracy
+
 Workflow
 Data Cleaning
 Text Preprocessing
-TF-IDF Feature Extraction
+TF-IDF Vectorization
 Model Training
 Model Evaluation
 Spam Prediction
-Results
-
-Compared Naive Bayes and Logistic Regression models. Logistic Regression achieved better classification performance and was selected as the final model.
 
 Author
-
 Harshraj Kher
